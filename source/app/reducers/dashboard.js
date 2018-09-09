@@ -8,11 +8,11 @@ export default function(state = initialState , action ) {
 	switch(action.type){
 		case GET_DATA :
 			let list = Object.values(action.payload);
-			return {...state, list : getPaginatedData(list,1), originalList : action.payload, filterList : list ,dataAvailable : list.length, paginationCount : Math.ceil(list.length/3)};
+			return {...state, list : getPaginatedData(list,1), originalList : action.payload, filterList : list ,dataAvailable : list.length, paginationCount : Math.ceil(list.length/10)};
 
 		case SEARCH_DATA :
 			let searchList = action.payload ? searchData(Object.values(originalList),action.payload) : Object.values(originalList);
-			return {...state, list:getPaginatedData(searchList,1), filterList : searchList, activeCount : 1, paginationCount : Math.ceil(searchList.length/3), autoKey : action.payload};
+			return {...state, list:getPaginatedData(searchList,1), filterList : searchList, activeCount : 1, paginationCount : Math.ceil(searchList.length/10), autoKey : action.payload};
 
 		case EDIT_CAMPAIGN :
 			editData(originalList, action.payload.id, action.payload.name);
@@ -22,7 +22,7 @@ export default function(state = initialState , action ) {
 		case DELETE_CAMPAIGN :
 			deleteData(originalList, action.payload ? action.payload : state.deleteList);
 			let deletedList = state.autoKey ? searchData(Object.values(originalList),state.autoKey) : Object.values(originalList);
-			let paginationCount = Math.ceil(deletedList.length/3);
+			let paginationCount = Math.ceil(deletedList.length/10);
 			let activeCount = state.activeCount;
 			if(paginationCount < activeCount){
 				activeCount = paginationCount;

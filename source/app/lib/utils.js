@@ -1,5 +1,5 @@
 export function getPaginatedData(list,count){
-	return list.slice((count-1)*3, count*3);
+	return list.slice((count-1)*10, count*10);
 }
 
 export function searchData(list,val){
