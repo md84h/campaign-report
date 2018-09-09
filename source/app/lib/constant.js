@@ -1,0 +1,8 @@
+export const GET_DATA = "GET_DATA";
+export const SEARCH_DATA = "SEARCH_DATA";
+export const EDIT_CAMPAIGN = "EDIT_CAMPAIGN";
+export const DELETE_CAMPAIGN = "DELETE_CAMPAIGN";
+export const CHECKBOX_ACTION = "CHECKBOX_ACTION";
+export const CLEAR_BULK_DELETE = "CLEAR_BULK_DELETE";
+export const PAGINATE = "PAGINATE";
+export const SHOW_BULK_DELETE = "SHOW_BULK_DELETE";

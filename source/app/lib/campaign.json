@@ -1,0 +1,116 @@
+{
+    "110": {
+        "name": "Test Ninja",
+        "type": "Smart Trigger Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 110
+    },
+    "111": {
+        "name": "Test Sikoo",
+        "type": "Smart Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 111
+    },
+    "112": {
+        "name": "Test Email",
+        "type": "Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 112
+    },
+    "113": {
+        "name": "Test Email Draft",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 113
+    },
+    "114": {
+        "name": "Test Ninja",
+        "type": "Connector",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 114
+    },
+    "115": {
+        "name": "Test Connector",
+        "type": "Connector",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 115
+    },
+    "116": {
+        "name": "Problem Set 1",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 116
+    },
+    "117": {
+        "name": "Problem Set 2",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 117
+    },
+    "118": {
+        "name": "Problem Set 3",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 118
+    },
+    "119": {
+        "name": "Problem Set 4",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 119
+    },
+    "120": {
+        "name": "Problem Set 5",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 120
+    },
+    "121": {
+        "name": "Test 121",
+        "type": "Test",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 121
+    },
+    "122": {
+        "name": "Test 122",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 122
+    },
+    "123": {
+        "name": "Problem Set 5",
+        "type": "Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 123
+    },
+    "124": {
+        "name": "Problem",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 124
+    },
+    "125": {
+        "name": "Problem XYZ",
+        "type": "Connector",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 125
+    },
+    "126": {
+        "name": "Campaign 123",
+        "type": "Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 126
+    },
+    "127": {
+        "name": "Order General",
+        "type": "General Order",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 127
+    },
+    "128": {
+        "name": "Order 12",
+        "type": "General Email",
+        "lastSaved": "Thu, Apr 17th, 08:15 pm",
+        "id": 128
+    }
+}
